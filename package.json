@@ -1,0 +1,24 @@
+{
+  "name": "module21project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardsanvie/Module21Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardsanvie/Module21Project/issues"
+  },
+  "homepage": "https://github.com/richardsanvie/Module21Project#readme",
+  "devDependencies": {
+    "sass": "^1.65.1"
+  }
+}
