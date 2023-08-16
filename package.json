@@ -2,7 +2,7 @@
   "name": "module21project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "sass": "sass source/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
