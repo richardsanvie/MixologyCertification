@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/richardsanvie/Module21Project#readme",
   "devDependencies": {
-    "sass": "^1.65.1"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.66.0"
   }
 }

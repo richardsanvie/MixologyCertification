@@ -1,0 +1,206 @@
+@use 'setuptext.scss';
+@use 'colors.scss';
+
+.tertiarySection {
+    margin: 0 auto;
+    max-width: 2500px;
+    background-color: rgb(202, 242, 1);
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../image/fundo_sesso_criando_lendas.jpg");
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    .content {
+        margin: 0 auto;
+        width: 1400px;
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            grid-template-rows: repeat(1, 1fr);
+            align-items: center;
+
+            .esa,
+            .baiano,
+            .brucer,
+            .minerva {
+                position: relative;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 40px;
+                margin-top: 10px;
+                z-index: 2;
+
+                &:hover {
+
+                    .titleContainerText {
+                        opacity: 0;
+                    }
+                }
+
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    transition: .5s ease;
+                    background-color: rgba(0, 0, 0, 0.2);
+
+                }
+
+                .titleContainer:hover .overlay {
+                    opacity: 1;
+                }
+
+                .overlayText {
+                    color: colors.$white;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+
+                    h2 {
+                        font-size: 72px !important;
+                    }
+
+                    .overlayTextP {
+                        color: colors.$white;
+                        @extend .pSetupText;
+                    }
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.1);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    filter: grayscale(100%);
+                    z-index: -1;
+                }
+
+                .text-green {
+                    color: colors.$green;
+                    @extend .hSetupTextCard;
+                    font-size: 64px;
+                }
+
+                .text-white {
+                    color: colors.$white;
+                    @extend .pSetupTextCard;
+                    width: 590px;
+                    font-size: 17px;
+                }
+
+                .titleContainerText {
+                    position: absolute;
+                    top: 80%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .baiano {
+                width: 100%;
+                height: 700px;
+                justify-self: end;
+
+                &::before {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/baiano-3.webp);
+                }
+            }
+
+            .esa {
+                width: 100%;
+                height: 600px;
+                justify-self: start;
+
+                &::before {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/esa.webp);
+                }
+            }
+
+            .brucer {
+                width: 100%;
+                height: 600px;
+                justify-self: end;
+
+                &::before {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/brucer_hotmart.webp);
+                }
+            }
+
+            .minerva {
+                width: 100%;
+                height: 600px;
+                justify-self: start;
+
+                &::before {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/minerva_hotmart.webp);
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .tertiarySection {
+        height: auto;
+    
+        .content {
+            width: auto;
+
+            .title300{
+                padding-top: 45px;
+                font-size: 60px;
+            }
+            
+            .row {
+                display: block;
+    
+                .esa,
+                .baiano,
+                .brucer,
+                .minerva {
+                    .overlay{
+                        width: auto;
+                        .overlayText{
+                            width: 90%;
+                        }
+                    }
+    
+                    .text-green {
+                        color: colors.$green;
+                        font-size: 45px;
+                    }
+    
+                    .text-white {
+                        color: colors.$white;
+                        font-size: 20px;
+                        width: auto;
+                    }
+    
+                    
+                }
+            }
+        }
+    }
+}

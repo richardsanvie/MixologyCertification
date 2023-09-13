@@ -8,5 +8,7 @@ function compilaSass(){
 }
 
 exports.default = function(){
-    gulp. watch('.source/styles/*.scss', { ignoreInitial: false }, gulp.series(compilaSass));
+    gulp.watch('.source/styles/*.scss', { ignoreInitial: false }, gulp.series(compilaSass));
 }
+
+//npm run sass --watch
