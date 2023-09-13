@@ -89,9 +89,7 @@
 .tertiarySection .content .row .minerva {
   position: relative;
   overflow: hidden;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 40px;
   margin-top: 10px;
   z-index: 2;
@@ -128,12 +126,11 @@
 .tertiarySection .content .row .minerva .overlayText {
   color: #FEFEFF;
   position: absolute;
-  top: 50%;
+  top: 71%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 .tertiarySection .content .row .esa .overlayText h2,
 .tertiarySection .content .row .baiano .overlayText h2,
@@ -202,7 +199,7 @@
   justify-self: start;
 }
 .tertiarySection .content .row .esa::before {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/esa.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/pain-gaming-esa.jpg);
 }
 .tertiarySection .content .row .brucer {
   width: 100%;
@@ -210,7 +207,7 @@
   justify-self: end;
 }
 .tertiarySection .content .row .brucer::before {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/brucer_hotmart.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/brucer.png);
 }
 .tertiarySection .content .row .minerva {
   width: 100%;
@@ -218,7 +215,7 @@
   justify-self: start;
 }
 .tertiarySection .content .row .minerva::before {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/minerva_hotmart.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/minerv.jpg);
 }
 
 @media screen and (max-width: 767px) {
@@ -247,19 +244,25 @@
   .tertiarySection .content .row .minerva .overlay .overlayText {
     width: 90%;
   }
+  .tertiarySection .content .row .esa .overlay .overlayText .overlayTextP,
+  .tertiarySection .content .row .baiano .overlay .overlayText .overlayTextP,
+  .tertiarySection .content .row .brucer .overlay .overlayText .overlayTextP,
+  .tertiarySection .content .row .minerva .overlay .overlayText .overlayTextP {
+    font-size: 16px;
+  }
   .tertiarySection .content .row .esa .text-green,
   .tertiarySection .content .row .baiano .text-green,
   .tertiarySection .content .row .brucer .text-green,
   .tertiarySection .content .row .minerva .text-green {
     color: #caf201;
-    font-size: 45px;
+    font-size: 5px;
   }
   .tertiarySection .content .row .esa .text-white,
   .tertiarySection .content .row .baiano .text-white,
   .tertiarySection .content .row .brucer .text-white,
   .tertiarySection .content .row .minerva .text-white {
     color: #FEFEFF;
-    font-size: 20px;
+    font-size: 16px;
     width: auto;
   }
 }

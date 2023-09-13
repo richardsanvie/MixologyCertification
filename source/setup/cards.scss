@@ -29,9 +29,7 @@
             .minerva {
                 position: relative;
                 overflow: hidden;
-                align-items: center;
                 justify-content: center;
-                text-align: center;
                 padding: 40px;
                 margin-top: 10px;
                 z-index: 2;
@@ -63,12 +61,12 @@
                 .overlayText {
                     color: colors.$white;
                     position: absolute;
-                    top: 50%;
+                    top: 71%;
                     left: 50%;
                     -webkit-transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
-                    text-align: center;
+                 
 
                     h2 {
                         font-size: 72px !important;
@@ -132,7 +130,7 @@
                 justify-self: start;
 
                 &::before {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/esa.webp);
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/pain-gaming-esa.jpg);
                 }
             }
 
@@ -142,7 +140,7 @@
                 justify-self: end;
 
                 &::before {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/brucer_hotmart.webp);
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/brucer.png);
                 }
             }
 
@@ -152,7 +150,7 @@
                 justify-self: start;
 
                 &::before {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/minerva_hotmart.webp);
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/image/minerv.jpg);
                 }
             }
 
@@ -172,6 +170,8 @@
                 padding-top: 45px;
                 font-size: 60px;
             }
+
+            
             
             .row {
                 display: block;
@@ -184,21 +184,23 @@
                         width: auto;
                         .overlayText{
                             width: 90%;
+                            .overlayTextP{
+                                font-size: 16px;
+                            }
                         }
                     }
     
                     .text-green {
                         color: colors.$green;
-                        font-size: 45px;
+                        font-size: 5px;
                     }
     
                     .text-white {
                         color: colors.$white;
-                        font-size: 20px;
+                        font-size: 16px;
                         width: auto;
                     }
-    
-                    
+  
                 }
             }
         }
