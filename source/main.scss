@@ -331,6 +331,113 @@ footer {
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    header {
+        position: static;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0);
+    }
+
+    .hero {
+        .banner-video {
+            max-width: 100vw;
+            height: auto;
+
+            video {
+                width: 100%;
+                object-position: center;
+            }
+        }
+    }
+
+    .secondSection {
+
+        .row {
+            display: block;
+            
+            .col-6 {
+                h2.mb-4 {
+                    font-size: 21px;
+                }
+
+                p.overlayTextP {
+                    font-size: 14px;
+                }
+
+                width: 100%;
+
+                .deed {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .sectionLanes {
+        .title299{
+            font-size: 30px;
+            width: auto;
+        }
+    
+        .sectionInternLanes {
+            padding-top: 30px;
+            width: 100%;
+    
+            .containerLanes {
+                width: 100%;
+                display: block;
+    
+                .lanes {
+                    display: block;
+                    padding: 25px 35px;
+                    margin-bottom: 10px;
+                }
+    
+                
+            }
+        }
+    }
+
+    .buy {
+        display: block;
+        height: auto;
+        margin: 0;
+    
+        .buyIntern {
+            display: block;
+            padding: 40px;
+        }
+    
+        .buyP1 {
+            font-size: 32px;
+        }
+    
+        .buyP2 {
+            font-size: 40px;
+        }
+    
+        .buyP3 {
+            font-size: 20px;
+        }
+
+        .buyP4{
+            width: 100%;
+        }
+    
+        .button3 {
+            padding: 15px 20px;
+        }
+    
+        #linkButton {
+            width: 100%;
+        }
+    }
+
+    
+}
+
 @media screen and (max-width: 767px) {
 
     header {

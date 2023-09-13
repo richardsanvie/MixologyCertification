@@ -158,6 +158,56 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    
+    .tertiarySection {
+        height: auto;
+    
+        .content {
+            width: auto;
+
+            .title300{
+                padding-top: 45px;
+                font-size: 60px;
+            }
+
+            
+            
+            .row {
+                display: block;
+    
+                .esa,
+                .baiano,
+                .brucer,
+                .minerva {
+                    .overlay{
+                        width: auto;
+                        .overlayText{
+                            width: 90%;
+                            .overlayTextP{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+    
+                    .text-green {
+                        color: colors.$green;
+                        font-size: 5px;
+                    }
+    
+                    .text-white {
+                        color: colors.$white;
+                        font-size: 16px;
+                        width: auto;
+                    }
+  
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 767px) {
 
     .tertiarySection {
