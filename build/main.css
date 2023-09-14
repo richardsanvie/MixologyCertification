@@ -74,7 +74,7 @@
 }
 .tertiarySection .content {
   margin: 0 auto;
-  width: 1400px;
+  width: 99%;
 }
 .tertiarySection .content .row {
   display: grid;
@@ -125,6 +125,7 @@
 .tertiarySection .content .row .brucer .overlayText,
 .tertiarySection .content .row .minerva .overlayText {
   color: #FEFEFF;
+  width: 87%;
   position: absolute;
   top: 71%;
   left: 50%;
@@ -549,10 +550,10 @@ footer p {
 .sectionLanes .sectionInternLanes {
   padding-top: 60px;
   margin: 0 auto;
-  width: 1400px;
+  width: 100%;
 }
 .sectionLanes .sectionInternLanes .containerLanes {
-  width: 1400px;
+  width: 100%;
   display: flex;
   column-gap: 10px;
   grid-template-columns: repeat(6, 15);
