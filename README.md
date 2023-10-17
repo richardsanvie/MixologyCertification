@@ -1,5 +1,8 @@
 # CriandoLendas
 
+![Minha Imagem](https://github.com/richardsanvie/criandoLendas/blob/richardBranch/image/CriandoLendas.gif)
+
+
 ## Sobre este Projeto
 A ideia do site era:
 
