@@ -3,9 +3,7 @@
 ## Sobre este Projeto
 A ideia do site era:
 
-"Compartilhar conhecimento na forma de podcasts, proporcionando uma maneira simples de aprender".
-
-PS: Podcasts foi apenas o contexto escolhido por mim para este projeto, mas todo o código dentro deste aplicativo pode ser reutilizado para qualquer aplicativo que tenha transmissão de áudio como domínio, então você pode reutilizar tudo aqui no seu próximo player de música, biblioteca de podcasts ou qualquer coisa dentro deste contexto!
+Neste projeto, reconheci a oportunidade de melhorar a presença online de um artista que admiro. Diante de uma landing page com aspecto pouco profissional, empreguei minhas habilidades em Jquery, CSS (incluindo SASS) e HTML, com automação via Gulpjs. O resultado foi uma página visualmente atraente, otimizada para SEO e pronta para mecanismos de busca.
 
 ## Por quê?
 Este projeto faz parte do meu portfólio pessoal, então ficarei feliz se você puder me fornecer qualquer feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que possa me tornar um desenvolvedor melhor!
@@ -18,19 +16,9 @@ Além disso, você pode usar este Projeto como quiser, seja para estudar, seja p
 
 É grátis!
 
-## Algumas Observações sobre este site
-1 - Não há funcionalidade de Login/Registro, os botões e os formulários na tela de Login são apenas para questões de interface do usuário.
+## Algumas observações sobre este site
+1 - Não há funcionalidade de Finalizar a compra, os botões são apenas para questões de interface do usuário.
 
-Instaladores
-Se você quiser testar o aplicativo no modo Produção, os instaladores estão listados abaixo:
-
-Instalador .apk para Android
-
-Instalador .ipa para iOS: Em breve!
-
-## Funcionalidades
-
-xzxzcxcz
 
 ## Instalação
 Clonando o Repositório
@@ -57,4 +45,10 @@ npm run sass --watch
 
 ## Construído com
 
-gulp, html, css, javascript
+**Construído Com**
+
+- [**jQuery**](https://jquery.com/) - Biblioteca para manipulação de documentos HTML, manipulação de eventos, animações e requisições AJAX.
+- [**Biblioteca AOS**](https://michalsnik.github.io/aos/) - Biblioteca para criar animações de scroll.
+- [**CSS (incluindo SASS)**](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilo utilizada para estilizar documentos HTML.
+- [**HTML**](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação padrão para criar páginas web.
+- [**Gulp.js**](https://gulpjs.com/) - Ferramenta de automação de tarefas em JavaScript para auxiliar no desenvolvimento web.
