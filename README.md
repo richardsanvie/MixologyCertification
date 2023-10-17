@@ -4,8 +4,6 @@
 
 
 ## Sobre este Projeto
-A ideia do site era:
-
 Neste projeto, reconheci a oportunidade de melhorar a presença online de um artista que admiro. Diante de uma landing page com aspecto pouco profissional, empreguei minhas habilidades em Jquery, CSS (incluindo SASS) e HTML, com automação via Gulpjs. O resultado foi uma página visualmente atraente, otimizada para SEO e pronta para mecanismos de busca.
 
 ## Por quê?
