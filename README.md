@@ -46,8 +46,6 @@ npm run sass --watch
 
 ## Construído com
 
-**Construído Com**
-
 - [**jQuery**](https://jquery.com/) - Biblioteca para manipulação de documentos HTML, manipulação de eventos, animações e requisições AJAX.
 - [**Biblioteca AOS**](https://michalsnik.github.io/aos/) - Biblioteca para criar animações de scroll.
 - [**CSS (incluindo SASS)**](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilo utilizada para estilizar documentos HTML.
