@@ -1,6 +1,6 @@
-# CriandoLendas
+# MixologyCertification
 
-![Minha Imagem](https://github.com/richardsanvie/criandoLendas/blob/richardBranch/image/CriandoLendas.gif)
+![Minha Imagem](https://github.com/richardsanvie/MixologyCertification/blob/richardBranch/image/CriandoLendas.gif)
 
 
 ## Sobre este Projeto
@@ -25,10 +25,10 @@ Além disso, você pode usar este Projeto como quiser, seja para estudar, seja p
 Clonando o Repositório
 
 ```html
-git clone https://github.com/richardSanvie/criandoLendas
+git clone https://github.com/richardSanvie/MixologyCertification
 ```
 ```html
-cd CriandoLendas
+cd MixologyCertification
 ```
 
 Instalando Dependências
