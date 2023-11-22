@@ -6,6 +6,8 @@
 ## Sobre este Projeto
 Neste projeto, reconheci a oportunidade de melhorar a presença online de um artista que admiro. Diante de uma landing page com aspecto pouco profissional, empreguei minhas habilidades em Jquery, CSS (incluindo SASS) e HTML, com automação via Gulpjs. O resultado foi uma página visualmente atraente, otimizada para SEO e pronta para mecanismos de busca.
 
+- **Link:** https://mixologycertification.vercel.app/
+
 ## Por quê?
 Este projeto faz parte do meu portfólio pessoal, então ficarei feliz se você puder me fornecer qualquer feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que possa me tornar um desenvolvedor melhor!
 
